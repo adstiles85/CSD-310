@@ -22,7 +22,6 @@ VALUES
 ALTER TABLE Wine 
 MODIFY COLUMN WineType ENUM('Merlot', 'Cabernet', 'Chablis', 'Chardonnay', 'Pinot Noir', 'Blended Red Wine', 'Zinfandel', 'Syrah') NOT NULL;
 
-
 INSERT INTO Wine (WineName, WineType, ProductionQuantity) 
 VALUES 
 ('Pinot Noir Reserve', 'Pinot Noir', 350),
